@@ -1,0 +1,4 @@
+require_relative './config/environment.rb'
+require_relative 'lib/workflows/example_workflow.rb'
+require_relative 'lib/jobs/some_job.rb'
+require_relative 'lib/jobs/some_other_job.rb'
