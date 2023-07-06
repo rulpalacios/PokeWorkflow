@@ -1,6 +1,6 @@
 class PokemonWorkflow < Gush::Workflow
   def configure
-    run DownloadPokemonJob
-    run InsertPokemonJob, after: DownloadPokemonJob
+    run DownloadPokemonsJob
+    run InsertPokemonsJob, after: DownloadPokemonsJob
   end
 end
