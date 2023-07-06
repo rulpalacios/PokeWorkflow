@@ -1,4 +1,4 @@
-require_relative './config/environment.rb'
+require_relative 'config/application.rb'
 require_relative 'app/workflows/pokemon_workflow.rb'
 require_relative 'app/jobs/download_pokemons_job.rb'
 require_relative 'app/jobs/insert_pokemons_job.rb'
